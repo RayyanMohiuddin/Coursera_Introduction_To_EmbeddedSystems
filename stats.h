@@ -29,11 +29,12 @@
  * This function prints the statistics for a given array including median, mean, maximum and minimum.
  *
  * @param array 8-bit pointer to the array
+ * @param size 32-bit word defining the size of the array
  *
  * @return void function
  */
  
- void print_statistics(unsigned char* array);
+ void print_statistics(unsigned char* array, unsigned int size);
  
 /**
  * @brief Prints an array
@@ -59,7 +60,7 @@
  * @return Returns an 8-bit median value
  */
  
- char find_median(unsigned char* array, unsigned int size);
+ unsigned char find_median(unsigned char* array, unsigned int size);
  
 /**
  * @brief Returns mean of a given array
@@ -72,7 +73,7 @@
  * @return Returns an 8-bit mean value
  */
  
- char find_mean(unsigned char* array, unsigned int size);
+ unsigned char find_mean(unsigned char* array, unsigned int size);
  
 /**
  * @brief Returns maximum value in a given array
@@ -85,7 +86,7 @@
  * @return Returns an 8-bit maximum value
  */
  
- char find_maximum(unsigned char* array, unsigned int size);
+ unsigned char find_maximum(unsigned char* array, unsigned int size);
  
 /**
  * @brief Returns minimum value in a given array
@@ -98,7 +99,7 @@
  * @return Returns an 8-bit minimum value
  */
  
- char find_minimum(unsigned char* array, unsigned int size);
+ unsigned char find_minimum(unsigned char* array, unsigned int size);
  
  /**
  * @brief Sorts a given array
