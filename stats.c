@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Main implementation C source file
  *
- * <Add Extended Description Here>
+ * This is a C file that contains the definition all functions and their implementation
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Rayyan Mohiuddin
+ * @date 23 July 2024
  *
  */
 
@@ -41,3 +41,31 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char* array) {
+
+}
+
+void print_array(unsigned char* array, unsigned int size) {
+
+}
+
+char find_median(unsigned char* array, unsigned int size){
+
+}
+
+char find_mean(unsigned char* array, unsigned int size){
+
+}
+
+char find_maximum(unsigned char* array, unsigned int size){
+
+}
+
+char find_minimum(unsigned char* array, unsigned int size){
+
+}
+
+unsigned char* sort_array(unsigned char* array, unsigned int size){
+ 
+}
