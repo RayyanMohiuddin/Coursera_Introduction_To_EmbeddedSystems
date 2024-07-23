@@ -70,8 +70,10 @@ void print_array(unsigned char* array, unsigned int size) {
 unsigned char find_median(unsigned char* array, unsigned int size){
   unsigned char median;
   
-  if(size%2 != 0) {
-    median = array[(size/2 + (size+1))/2];
+  sort_array(array, size);
+  
+  if(size%2 == 0) {
+    median = (array[size/2] + array[(size+1)/2])/2;
   }
   else {
     median = array[(size+1)/2];
